@@ -8,3 +8,5 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 
 $routes->get('/hello', 'Home::hello');
+
+$routes->get('/ppdb/pendaftaran', 'Ppdb::pendaftaran');
